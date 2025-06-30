@@ -1,0 +1,213 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-font-size: 19.0625px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-letter-spacing: 0px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-line-height: 28px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-upper-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-upper-font-size: 9.912500381469727px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-upper-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-upper-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-upper-letter-spacing: 1.0399999618530273px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-bold-upper-line-height: 15.600000381469727px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-regular-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-regular-font-size: 12.96875px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-regular-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-regular-font-weight: 400;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-regular-letter-spacing: 0px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-menlo-regular-line-height: 28px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-button-upper-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-button-upper-font-size: 12.800000190734863px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-button-upper-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-button-upper-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-button-upper-letter-spacing: 0.6399999856948853px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-button-upper-line-height: 19.200000762939453px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-font-size: 29.6484375px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-letter-spacing: -1.5px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-line-height: 30px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-underline-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-underline-font-size: 29.4140625px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-underline-font-style: italic;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-underline-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-underline-letter-spacing: -1.5px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-1-underline-line-height: 30px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-2-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-2-font-size: 23.0625px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-2-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-2-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-2-letter-spacing: 0px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-2-line-height: 32px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-3-font-family: "Menlo",
+    Helvetica;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-3-font-size: 19.84375px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-3-font-style: normal;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-3-font-weight: 700;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-3-letter-spacing: 0px;
+  --v0-friedrichshain-connection-ret-steel-vercel-app-semantic-heading-3-line-height: 28px;
+  --v0-friedrichshain-connection-ret-steelvercelappathens-gray: rgba(
+    249,
+    250,
+    251,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappblack: rgba(0, 0, 0, 1);
+  --v0-friedrichshain-connection-ret-steelvercelappcod-gray-black: rgba(
+    18,
+    18,
+    18,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappcornflower-blue: rgba(
+    99,
+    102,
+    241,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappebony: rgba(17, 24, 39, 1);
+  --v0-friedrichshain-connection-ret-steelvercelappebony-clay: rgba(
+    31,
+    41,
+    55,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappflamingo: rgba(
+    239,
+    68,
+    68,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappgray-chateau: rgba(
+    156,
+    163,
+    175,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappmischka: rgba(
+    209,
+    213,
+    219,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappoxford-blue: rgba(
+    55,
+    65,
+    81,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelapppale-sky: rgba(
+    107,
+    114,
+    128,
+    1
+  );
+  --v0-friedrichshain-connection-ret-steelvercelappwhite: rgba(255, 255, 255, 1);
+  --v0-friedrichshain-connection-ret-steelvercelappwhite-5: rgba(
+    255,
+    255,
+    255,
+    0.05
+  );
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

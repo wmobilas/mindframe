@@ -1,0 +1,1 @@
+export { CognitiveEliteSection } from "./CognitiveEliteSection";

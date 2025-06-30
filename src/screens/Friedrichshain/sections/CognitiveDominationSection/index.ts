@@ -1,0 +1,1 @@
+export { CognitiveDominationSection } from "./CognitiveDominationSection";
